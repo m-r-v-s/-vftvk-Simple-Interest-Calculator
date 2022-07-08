@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+    font-family: "arial";
+    color: white
+    }
+
+h1{
+    color:gray;
+    font-family: "Verdana";
+    }
+
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 480px;
+    padding: 20px;
+    border-radius: 25px;
+    
+    
+}
+.highlighted{
+    background-color: yellow;
+}
+
+.Fields
+{
+    padding-left: 45px;
+}
+
+/*Didn't have Verdana on Linux by default.*/
+@font-face {
+    font-family: Verdana;
+    src: url(Verdana.ttf);
+}
+
+@font-face {
+    font-family: Verdana;
+    font-weight: bold;
+    src: url(verdanab.ttf);
+}
